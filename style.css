@@ -1,4 +1,33 @@
-.cabecalho{
-    background-color: blueviolet;
-    
+
+body {
+  background: radial-gradient(circle,#4307ce, #05010e);
+}
+.logo{
+    height: 220px;
+}
+.spider {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.spider img {
+    width: 300px;
+    height: auto; 
+}
+p{
+  color: #130000;
+}
+main section {
+  background-color: #fddada;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+h3 {
+  font-size: 24px;
+  color: #28037e;
+  margin-bottom: 10px;
+  text-align: center;
 }
