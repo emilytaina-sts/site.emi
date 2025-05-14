@@ -3,7 +3,7 @@ body {
     background: radial-gradient(circle,#4307ce, #05010e);
   }
   .logo{
-      height: 220px;
+      height: 70px;
   }
   .spider {
       display: flex;
@@ -19,7 +19,7 @@ body {
     color: #130000;
   }
   main section {
-    background-color: #fddada;
+    background-color: #d3a091;
     border-radius: 20px;
     padding: 30px;
     margin-bottom: 30px;
@@ -31,3 +31,64 @@ body {
     margin-bottom: 10px;
     text-align: center;
   }
+  h1{
+    text-align: center;
+  }
+  .cabecalho {
+  display: flex;
+  align-items: center;
+   justify-content: space-between;
+  padding: 20px;
+  gap: 40px;
+  }
+  .menu {
+ font-family: "Syne", sans-serif;
+  flex: 1; 
+  margin-left: 40px;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #70a3ee;
+}
+.spider-container {
+  display: flex;
+  justify-content: center;
+  padding: 60px 20px;
+}
+
+.spider-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.spider-img {
+  max-width: 300px;
+  height: auto;
+}
+
+.spider-texto {
+  max-width: 400px;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.6;
+}
+h2{
+  font-family:"Bungee", sans-serif;
+  color: #030303;
+}
